@@ -1,0 +1,37 @@
+body {
+  background-color: rgba(207, 101, 101, 0.562) !important;
+
+  /* border: 1px solid red; */
+}
+.form-inline {
+  display: flex;
+  justify-content: center;
+}
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+#movies .col-md-3 .well {
+  height: 390px;
+}
+#movies .col-md-3 img {
+  height: 240px;
+}
+.container-bgcolor {
+  background-color: rgb(192, 99, 99, 0.7);
+  padding: 15px 15px 0px 15px;
+}
+.well:hover {
+  background-color: rgb(16, 12, 29);
+  color: white;
+  transition: 1s all;
+}
+@media screen and (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}

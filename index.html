@@ -3,10 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.js" />
+
     <link rel="stylesheet" href="style.css" />
 
     <title>movies name</title>
   </head>
-  <body></body>
+  <body>
+    <div class="jumbotron text-center">
+      <h1>MOVIES ON DEMAND...Go for it!</h1>
+      <p>Search for the movies on your choice</p>
+    </div>
+    <nav class="navbar">
+      <form class="form-inline" id="searchForm">
+        <input
+          class="form-control mr-sm-2"
+          id="searchText"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </nav>
+    <div class="container container-bgcolor ">
+      <div id="movies" class="row"></div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
