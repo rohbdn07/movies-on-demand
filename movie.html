@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="movie.html" />
     <link
       href="https://fonts.googleapis.com/css?family=Sriracha&display=swap"
       rel="stylesheet"
@@ -14,26 +13,8 @@
     <title>movies name</title>
   </head>
   <body>
-    <div class="jumbotron text-center">
-      <h1>MOVIES ON DEMAND...Go for it!</h1>
-      <p>Search for the movies on your choice</p>
-    </div>
-    <nav class="navbar">
-      <form class="form-inline" id="searchForm">
-        <input
-          class="form-control mr-sm-2"
-          id="searchText"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-          Search
-        </button>
-      </form>
-    </nav>
-    <div class="container container-bgcolor ">
-      <div id="movies" class="row1"></div>
+    <div class="container container-bgcolor row">
+      <div id="movie" class="well"></div>
     </div>
 
     <!-- jQuery library -->
@@ -45,5 +26,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
+    <script>
+      getMovie();
+    </script>
   </body>
 </html>
