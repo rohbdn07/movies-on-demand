@@ -2,11 +2,10 @@ body {
   background-color: rgba(207, 101, 101, 0.562) !important;
 
   /* border: 1px solid red; */
-
 }
 
 .jumbotron {
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   font-size: 60px;
 }
 
@@ -29,7 +28,7 @@ body {
 }
 
 .container-bgcolor {
-  background-color: rgb(192, 99, 99, 0.7);
+  background-color: rgba(206, 17, 17, 0.7);
   padding: 15px 15px 0px 15px;
 }
 
@@ -37,8 +36,6 @@ body {
   background-color: rgb(16, 12, 29);
   color: rgb(236, 214, 214);
   transition: 1s all;
-
-
 }
 
 /* .container:hover {
@@ -48,11 +45,9 @@ body {
 } */
 
 .list-group {
-
   color: rgb(207, 45, 45);
   transition: 2s all;
 }
-
 
 @media screen and (min-width: 960px) {
   #movies .col-md-3 .well {
@@ -65,10 +60,6 @@ body {
 }
 
 .list-group {
-
   display: inline-block;
   margin: 0 auto;
-
-
-
 }
